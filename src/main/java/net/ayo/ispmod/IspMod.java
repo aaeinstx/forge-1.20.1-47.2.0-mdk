@@ -57,6 +57,7 @@ public class IspMod
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.STEEL);
+            event.accept(ModItems.ALUMINUM);
         }
     }
 
