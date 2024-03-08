@@ -1,6 +1,7 @@
 package net.ayo.ispmod;
 
 import com.mojang.logging.LogUtils;
+import net.ayo.ispmod.item.ModCreativeModTabs;
 import net.ayo.ispmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -40,6 +41,8 @@ public class IspMod
     public IspMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 

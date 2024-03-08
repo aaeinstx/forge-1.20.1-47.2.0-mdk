@@ -1,4 +1,6 @@
 {
   "item.ispmod.steel": "Steel",
-  "item.ispmod.aluminum": "Aluminum"
+  "item.ispmod.aluminum": "Aluminum",
+
+  "creativetab.isp_tab": "ISP"
 }
