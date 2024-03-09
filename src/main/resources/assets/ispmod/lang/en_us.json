@@ -1,6 +1,8 @@
 {
-  "item.ispmod.steel": "Steel",
-  "item.ispmod.aluminum": "Aluminum",
+  "item.ispmod.steel": "Steel Ingot",
+  "item.ispmod.aluminum": "Aluminum Ingot",
+
+  "block.ispmod.steel_block": "Block of Steel",
 
   "creativetab.isp_tab": "ISP"
 }

@@ -1,6 +1,7 @@
 package net.ayo.ispmod.item;
 
 import net.ayo.ispmod.IspMod;
+import net.ayo.ispmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ALUMINUM.get());
                         pOutput.accept(ModItems.STEEL.get());
+
+                        pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                     })
                     .build());
 

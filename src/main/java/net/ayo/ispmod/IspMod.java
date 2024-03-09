@@ -1,6 +1,7 @@
 package net.ayo.ispmod;
 
 import com.mojang.logging.LogUtils;
+import net.ayo.ispmod.block.ModBlocks;
 import net.ayo.ispmod.item.ModCreativeModTabs;
 import net.ayo.ispmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -45,6 +46,7 @@ public class IspMod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
