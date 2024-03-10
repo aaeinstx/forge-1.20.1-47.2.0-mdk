@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.STEEL.get());
 
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.ALUMINUM_BLOCK.get());
                     })
                     .build());
 

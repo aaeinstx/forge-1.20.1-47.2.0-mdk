@@ -21,6 +21,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () ->  new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(6.0F, 7.0F)));
 
+    public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block",
+            () ->  new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(5.0F, 7.0F)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
