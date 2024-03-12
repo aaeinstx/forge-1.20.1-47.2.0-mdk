@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.5,
+  "group": "steel",
+  "ingredient": {
+    "item": "ispmod:deepslate_bauxite"
+  },
+  "result": "ispmod:aluminum"
+}

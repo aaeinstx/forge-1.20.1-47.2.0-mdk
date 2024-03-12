@@ -2,10 +2,12 @@ package net.ayo.ispmod.block;
 
 import net.ayo.ispmod.IspMod;
 import net.ayo.ispmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,10 +24,16 @@ public class ModBlocks {
             () ->  new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(6.0F, 7.0F)));
 
     public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block",
-            () ->  new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(5.0F, 7.0F)));
+            () ->  new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).strength(5.0F, 7.0F)));
 
     public static final RegistryObject<Block> BAUXITE = registerBlock("bauxite",
+            () ->  new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE), UniformInt.of(3,6)));
+
+    public static final RegistryObject<Block> RAW_BAUXITE_BLOCK = registerBlock("raw_bauxite_block",
             () ->  new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+
+    public static final RegistryObject<Block> DEEPSLATE_BAUXITE = registerBlock("deepslate_bauxite",
+            () ->  new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE), UniformInt.of(3,6)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

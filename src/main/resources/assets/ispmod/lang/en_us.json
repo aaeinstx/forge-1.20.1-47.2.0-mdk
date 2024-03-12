@@ -1,10 +1,12 @@
 {
   "item.ispmod.steel": "Steel Ingot",
   "item.ispmod.aluminum": "Aluminum Ingot",
+  "item.ispmod.raw_bauxite": "Raw Bauxite",
 
   "block.ispmod.steel_block": "Steel Block",
   "block.ispmod.aluminum_block": "Aluminum Block",
   "block.ispmod.bauxite": "Bauxite",
+  "block.ispmod.raw_bauxite_block": "Block of Raw Bauxite",
 
   "creativetab.isp_tab": "ISP"
 }

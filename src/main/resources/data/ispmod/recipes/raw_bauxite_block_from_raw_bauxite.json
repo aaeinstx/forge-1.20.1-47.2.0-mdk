@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+  "item": "ispmod:raw_bauxite"
+}
+  },
+  "result": {
+    "item": "ispmod:raw_bauxite_block"
+  }
+}

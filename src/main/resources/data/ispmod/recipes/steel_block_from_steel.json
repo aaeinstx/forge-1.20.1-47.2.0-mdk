@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+  "item": "ispmod:steel"
+}
+  },
+  "result": {
+    "item": "ispmod:steel_block"
+  }
+}

@@ -20,10 +20,13 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ALUMINUM.get());
                         pOutput.accept(ModItems.STEEL.get());
+                        pOutput.accept(ModItems.RAW_BAUXITE.get());
 
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.ALUMINUM_BLOCK.get());
                         pOutput.accept(ModBlocks.BAUXITE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_BAUXITE.get());
+                        pOutput.accept(ModBlocks.RAW_BAUXITE_BLOCK.get());
                     })
                     .build());
 
