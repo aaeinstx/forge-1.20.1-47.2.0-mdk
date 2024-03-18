@@ -2,11 +2,14 @@
   "item.ispmod.steel": "Steel Ingot",
   "item.ispmod.aluminum": "Aluminum Ingot",
   "item.ispmod.raw_bauxite": "Raw Bauxite",
+  "item.ispmod.wrought_apple": "Wrought Apple",
+  "item.ispmod.metal_detector": "Metal Detector",
 
   "block.ispmod.steel_block": "Steel Block",
   "block.ispmod.aluminum_block": "Aluminum Block",
   "block.ispmod.bauxite": "Bauxite",
   "block.ispmod.raw_bauxite_block": "Block of Raw Bauxite",
+  "block.ispmod.deepslate_bauxite": "Deepslate Bauxite",
 
   "creativetab.isp_tab": "ISP"
 }

@@ -1,0 +1,16 @@
+// 1.20.1	2024-03-17T14:08:25.059682	Block States: ispmod
+0ccf6c5404360f9083fb87a3d6b19b0321e6b531 assets/ispmod/blockstates/aluminum_block.json
+d27b9fecba730806d02f1baf01133f956ba6a996 assets/ispmod/blockstates/bauxite.json
+994e2b54a3bf5d6221e881e63123d55af896aeda assets/ispmod/blockstates/deepslate_bauxite.json
+46900fed4344b501e0721885a7d8e8bc648c46cc assets/ispmod/blockstates/raw_bauxite_block.json
+3c8262966736abd6eb74c1caaf4ed2fb01707a2f assets/ispmod/blockstates/steel_block.json
+1ff4f34549095102baeb41e26f52d3e2467f8696 assets/ispmod/models/block/aluminum_block.json
+a9f36d0d0488ed22f7003e6f2069d957f7f9d2f8 assets/ispmod/models/block/bauxite.json
+89cb9a752fc12933b4c145ff8958d4d6d24813e2 assets/ispmod/models/block/deepslate_bauxite.json
+bc7492ce15f9092c03dbb83652e24be98c3be3c5 assets/ispmod/models/block/raw_bauxite_block.json
+ae5cb45b73502965cde55e16aca9dba913b1dbc4 assets/ispmod/models/block/steel_block.json
+d7f3006d21cce909669a77cf1e3a3591b07cf795 assets/ispmod/models/item/aluminum_block.json
+08b1eff537a61bbc77b299a9671409d06bd6ab06 assets/ispmod/models/item/bauxite.json
+3a62fd1901ba973bcf0e1da65a36ff09c43c22dd assets/ispmod/models/item/deepslate_bauxite.json
+171cf602c62b7a6fb195e2e436af6e53fa90f635 assets/ispmod/models/item/raw_bauxite_block.json
+08579472f7e72dd453f20e5aa0116ea582f13583 assets/ispmod/models/item/steel_block.json
