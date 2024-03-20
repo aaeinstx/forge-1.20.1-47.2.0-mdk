@@ -21,6 +21,24 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_BAUXITE = ITEMS.register("raw_bauxite",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> STAFF = ITEMS.register("staff",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> STONE_STAFF = ITEMS.register("stone_staff",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_STAFF = ITEMS.register("iron_staff",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMOND_STAFF = ITEMS.register("diamond_staff",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NETHERITE_STAFF = ITEMS.register("netherite_staff",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COMPOUND_BOW = ITEMS.register("compound_bow",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> WROUGHT_APPLE = ITEMS.register("wrought_apple",
             () -> new Item(new Item.Properties().food(ModFoods.WROUGHT_APPLE)));
 

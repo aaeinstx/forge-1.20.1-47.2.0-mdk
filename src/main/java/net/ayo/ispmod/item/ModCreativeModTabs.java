@@ -22,6 +22,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.STEEL.get());
                         pOutput.accept(ModItems.RAW_BAUXITE.get());
                         pOutput.accept(ModItems.WROUGHT_APPLE.get());
+                        pOutput.accept(ModItems.STAFF.get());
+                        pOutput.accept(ModItems.STONE_STAFF.get());
+                        pOutput.accept(ModItems.IRON_STAFF.get());
+                        pOutput.accept(ModItems.DIAMOND_STAFF.get());
+                        pOutput.accept(ModItems.NETHERITE_STAFF.get());
+                        //pOutput.accept(ModItems.COMPOUND_BOW.get());
 
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.ALUMINUM_BLOCK.get());

@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ispmod:item/texturenetherite",
+		"particle": "ispmod:item/texturenetherite"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 27, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 13.5], "texture": "#0"},
+				"east": {"uv": [1.5, 0, 2.5, 13.5], "texture": "#0"},
+				"south": {"uv": [3, 0, 4, 13.5], "texture": "#0"},
+				"west": {"uv": [4.5, 0, 5.5, 13.5], "texture": "#0"},
+				"up": {"uv": [7, 1, 6, 0], "texture": "#0"},
+				"down": {"uv": [7, 1.5, 6, 2.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -4, 0]
+		}
+	}
+}
