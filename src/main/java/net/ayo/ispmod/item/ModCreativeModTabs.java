@@ -28,6 +28,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.DIAMOND_STAFF.get());
                         pOutput.accept(ModItems.NETHERITE_STAFF.get());
                         //pOutput.accept(ModItems.COMPOUND_BOW.get());
+                        pOutput.accept(ModItems.STEEL_SWORD.get());
+                        pOutput.accept(ModItems.STEEL_PICKAXE.get());
+                        pOutput.accept(ModItems.STEEL_AXE.get());
+                        pOutput.accept(ModItems.STEEL_SHOVEL.get());
+                        pOutput.accept(ModItems.STEEL_HOE.get());
 
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.ALUMINUM_BLOCK.get());

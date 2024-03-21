@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-17T14:08:25.05314	Tags for minecraft:block mod id ispmod
-8b2abddc6c65f877a385002e6a36113fbd07fdd5 data/ispmod/tags/blocks/metal_detector_valuables.json
+// 1.20.1	2024-03-20T21:12:42.592827	Tags for minecraft:block mod id ispmod
+568f5fdcf1facb2bc85ed0c770bfaa6066697a94 data/ispmod/tags/blocks/metal_detector_valuables.json
 ec6884e854df07bf24494e9a807b3dbc0796630c data/minecraft/tags/blocks/mineable/pickaxe.json
 7e3426216a073f4443b07f713a85fa9817975641 data/minecraft/tags/blocks/needs_iron_tool.json

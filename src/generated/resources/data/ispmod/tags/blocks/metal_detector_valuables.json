@@ -1,6 +1,7 @@
 {
   "values": [
     "ispmod:bauxite",
+    "ispmod:deepslate_bauxite",
     "#forge:ores"
   ]
 }

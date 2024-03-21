@@ -5,6 +5,8 @@ import net.ayo.ispmod.block.ModBlocks;
 import net.ayo.ispmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -48,6 +50,95 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .define('S',ModItems.RAW_BAUXITE.get())
                 .unlockedBy(getHasName(ModItems.RAW_BAUXITE.get()),has(ModItems.RAW_BAUXITE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" T ")
+                .define('S',ModItems.STEEL.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S',ModItems.STEEL.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_AXE.get())
+                .pattern(" SS")
+                .pattern(" TS")
+                .pattern(" T ")
+                .define('S',ModItems.STEEL.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S',ModItems.STEEL.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_HOE.get())
+                .pattern("SS ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S',ModItems.STEEL.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STAFF.get())
+                .pattern(" T ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(Items.STICK),has(Items.STICK))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_STAFF.get())
+                .pattern(" S ")
+                .pattern(" T ")
+                .pattern(" S ")
+                .define('S',Items.IRON_INGOT)
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(Items.STICK),has(Items.STICK))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STONE_STAFF.get())
+                .pattern(" S ")
+                .pattern(" T ")
+                .pattern(" S ")
+                .define('S',ModItems.STEEL.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(Items.STICK),has(Items.STICK))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_STAFF.get())
+                .pattern(" S ")
+                .pattern(" T ")
+                .pattern(" S ")
+                .define('S',Items.DIAMOND)
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(Items.STICK),has(Items.STICK))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NETHERITE_STAFF.get())
+                .pattern(" S ")
+                .pattern(" T ")
+                .pattern(" S ")
+                .define('S',Items.NETHERITE_INGOT)
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(Items.STICK),has(Items.STICK))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALUMINUM.get(), 9)

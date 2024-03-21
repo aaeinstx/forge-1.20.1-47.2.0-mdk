@@ -1,6 +1,12 @@
-// 1.20.1	2024-03-17T14:08:25.058217	Item Models: ispmod
+// 1.20.1	2024-03-20T21:12:42.595082	Item Models: ispmod
 59fe9248068586b101be0d21d5b1e694cb19167a assets/ispmod/models/item/aluminum.json
+aebf45d40a530de054dd02fbb526ff55a164a928 assets/ispmod/models/item/compound_bow.json
 968285e600b841646c78178d053891055a14c103 assets/ispmod/models/item/metal_detector.json
 7d6d33fc33805e23c244744dee53d87a8218a3fe assets/ispmod/models/item/raw_bauxite.json
 5d27084fbe9a0262ecbf00592a1adc041bca06cd assets/ispmod/models/item/steel.json
+e69c2de1c944b9d85bcba30f63f0c1540392743c assets/ispmod/models/item/steel_axe.json
+df43e81ad15c1c3c5eb3b9c77a6f09776db85496 assets/ispmod/models/item/steel_hoe.json
+b528c8a6f07aea62fda9c8cc2557cf9a3bea1ff9 assets/ispmod/models/item/steel_pickaxe.json
+bfbda08563abc7dd7e034da7c352329b4e1bee3e assets/ispmod/models/item/steel_shovel.json
+3b6fed664f6e1f06d00ec4888d015ea7ab5831f0 assets/ispmod/models/item/steel_sword.json
 ef408702db65039166df39dc94e3c3d6bd7d22ac assets/ispmod/models/item/wrought_apple.json

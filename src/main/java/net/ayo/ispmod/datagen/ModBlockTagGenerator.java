@@ -23,7 +23,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NotNull Provider pProvider) {
         this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .add(ModBlocks.BAUXITE.get()).addTag(Tags.Blocks.ORES);
+                .add(ModBlocks.BAUXITE.get(), ModBlocks.DEEPSLATE_BAUXITE.get()).addTag(Tags.Blocks.ORES);
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BAUXITE.get(),ModBlocks.DEEPSLATE_BAUXITE.get(),ModBlocks.RAW_BAUXITE_BLOCK.get());

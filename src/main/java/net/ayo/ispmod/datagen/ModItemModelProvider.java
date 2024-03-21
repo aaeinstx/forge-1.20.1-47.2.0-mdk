@@ -22,6 +22,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_BAUXITE);
         simpleItem(ModItems.WROUGHT_APPLE);
         simpleItem(ModItems.METAL_DETECTOR);
+
+
+
+        handheldItem(ModItems.STEEL_SWORD);
+        handheldItem(ModItems.STEEL_PICKAXE);
+        handheldItem(ModItems.STEEL_AXE);
+        handheldItem(ModItems.STEEL_SHOVEL);
+        handheldItem(ModItems.STEEL_HOE);
+        handheldItem(ModItems.COMPOUND_BOW);
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(IspMod.MODID,"item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

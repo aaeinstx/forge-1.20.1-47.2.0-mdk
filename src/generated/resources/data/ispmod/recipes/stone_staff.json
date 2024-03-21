@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "ispmod:steel"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    " T ",
+    " S "
+  ],
+  "result": {
+    "item": "ispmod:stone_staff"
+  },
+  "show_notification": true
+}
