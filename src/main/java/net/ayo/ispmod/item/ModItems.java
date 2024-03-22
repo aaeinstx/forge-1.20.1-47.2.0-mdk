@@ -60,6 +60,45 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
             () -> new HoeItem(ModToolTiers.STEEL, 7/2, -3, new Item.Properties()));
 
+    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet",
+            () -> new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> STEEL_CHESTPLATE = ITEMS.register("steel_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+
+    public static final RegistryObject<Item> STEEL_LEGGINGS = ITEMS.register("steel_leggings",
+            () -> new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+
+    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots",
+            () -> new ArmorItem(ModArmorMaterials.STEEL, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_HELMET = ITEMS.register("aluminum_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ALUMINUM, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_CHESTPLATE = ITEMS.register("aluminum_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ALUMINUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_LEGGINGS = ITEMS.register("aluminum_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ALUMINUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_BOOTS = ITEMS.register("aluminum_boots",
+            () -> new ArmorItem(ModArmorMaterials.ALUMINUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_SWORD = ITEMS.register("aluminum_sword",
+            () -> new SwordItem(ModToolTiers.ALUMINUM, 3/2, -2, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_PICKAXE = ITEMS.register("aluminum_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ALUMINUM, 7/2, -3, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_AXE = ITEMS.register("aluminum_axe",
+            () -> new AxeItem(ModToolTiers.ALUMINUM, 5/2, -3, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_SHOVEL = ITEMS.register("aluminum_shovel",
+            () -> new ShovelItem(ModToolTiers.ALUMINUM, 1/2, -2, new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_HOE = ITEMS.register("aluminum_hoe",
+            () -> new HoeItem(ModToolTiers.ALUMINUM, 7/2, -3, new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

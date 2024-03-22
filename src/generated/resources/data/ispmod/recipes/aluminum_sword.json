@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "ispmod:aluminum"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    " S ",
+    " T "
+  ],
+  "result": {
+    "item": "ispmod:aluminum_sword"
+  },
+  "show_notification": true
+}

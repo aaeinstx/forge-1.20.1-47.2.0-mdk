@@ -33,6 +33,20 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.STEEL_AXE.get());
                         pOutput.accept(ModItems.STEEL_SHOVEL.get());
                         pOutput.accept(ModItems.STEEL_HOE.get());
+                        pOutput.accept(ModItems.STEEL_BOOTS.get());
+                        pOutput.accept(ModItems.STEEL_CHESTPLATE.get());
+                        pOutput.accept(ModItems.STEEL_LEGGINGS.get());
+                        pOutput.accept(ModItems.STEEL_HELMET.get());
+                        pOutput.accept(ModItems.ALUMINUM_BOOTS.get());
+                        pOutput.accept(ModItems.ALUMINUM_CHESTPLATE.get());
+                        pOutput.accept(ModItems.ALUMINUM_LEGGINGS.get());
+                        pOutput.accept(ModItems.ALUMINUM_HELMET.get());
+                        pOutput.accept(ModItems.ALUMINUM_SWORD.get());
+                        pOutput.accept(ModItems.ALUMINUM_PICKAXE.get());
+                        pOutput.accept(ModItems.ALUMINUM_AXE.get());
+                        pOutput.accept(ModItems.ALUMINUM_SHOVEL.get());
+                        pOutput.accept(ModItems.ALUMINUM_HOE.get());
+
 
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.ALUMINUM_BLOCK.get());

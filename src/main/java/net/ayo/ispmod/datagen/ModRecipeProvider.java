@@ -141,6 +141,116 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.STICK),has(Items.STICK))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" T ")
+                .define('S',ModItems.ALUMINUM.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S',ModItems.ALUMINUM.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_AXE.get())
+                .pattern(" SS")
+                .pattern(" TS")
+                .pattern(" T ")
+                .define('S',ModItems.ALUMINUM.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S',ModItems.ALUMINUM.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_HOE.get())
+                .pattern("SS ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S',ModItems.ALUMINUM.get())
+                .define('T', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_HELMET.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S',ModItems.ALUMINUM.get())
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_CHESTPLATE.get())
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S',ModItems.ALUMINUM.get())
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_LEGGINGS.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S',ModItems.ALUMINUM.get())
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALUMINUM_BOOTS.get())
+                .pattern("   ")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S',ModItems.ALUMINUM.get())
+                .unlockedBy(getHasName(ModItems.ALUMINUM.get()),has(ModItems.ALUMINUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_HELMET.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S',ModItems.STEEL.get())
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_CHESTPLATE.get())
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S',ModItems.STEEL.get())
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_LEGGINGS.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S',ModItems.STEEL.get())
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_BOOTS.get())
+                .pattern("   ")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S',ModItems.STEEL.get())
+                .unlockedBy(getHasName(ModItems.STEEL.get()),has(ModItems.STEEL.get()))
+                .save(pWriter);
+
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALUMINUM.get(), 9)
                 .requires(ModBlocks.ALUMINUM_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ALUMINUM_BLOCK.get()),has(ModBlocks.ALUMINUM_BLOCK.get()))
