@@ -2,9 +2,12 @@ package net.ayo.ispmod;
 
 import com.mojang.logging.LogUtils;
 import net.ayo.ispmod.block.ModBlocks;
+import net.ayo.ispmod.entity.ModEntities;
+import net.ayo.ispmod.entity.client.IronEaterRenderer;
 import net.ayo.ispmod.item.ModCreativeModTabs;
 import net.ayo.ispmod.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -47,6 +50,7 @@ public class IspMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -77,7 +81,7 @@ public class IspMod
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            EntityRenderers.register(ModEntities.IRON_EATER.get(), IronEaterRenderer::new);
         }
     }
 }

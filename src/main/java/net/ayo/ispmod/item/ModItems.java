@@ -1,8 +1,10 @@
 package net.ayo.ispmod.item;
 
 import net.ayo.ispmod.IspMod;
+import net.ayo.ispmod.entity.ModEntities;
 import net.ayo.ispmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -98,6 +100,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> ALUMINUM_HOE = ITEMS.register("aluminum_hoe",
             () -> new HoeItem(ModToolTiers.ALUMINUM, 7/2, -3, new Item.Properties()));
+
+    public static final RegistryObject<Item> BRASS_NUGGET = ITEMS.register("brass_nugget",
+            () -> new ArrowItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_EATER_SPAWN_EGG = ITEMS.register("iron_eater_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.IRON_EATER, 0x7e9680, 0xc5d1c5, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

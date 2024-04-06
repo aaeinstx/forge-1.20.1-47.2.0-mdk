@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-21T21:11:24.288177	Item Models: ispmod
+// 1.20.1	2024-03-31T11:52:09.26062	Item Models: ispmod
 59fe9248068586b101be0d21d5b1e694cb19167a assets/ispmod/models/item/aluminum.json
 57a3eb33b19f2b20d48469261979dfece50e7660 assets/ispmod/models/item/aluminum_axe.json
 e3e220338717b76b439147b3b4043dd17e4b18da assets/ispmod/models/item/aluminum_boots.json
@@ -50,6 +50,7 @@ df0a3a46135e431fd05aa185d611e54424eaf202 assets/ispmod/models/item/aluminum_legg
 1917255615e93dfdd4a04e43475e9d3e9e121911 assets/ispmod/models/item/aluminum_shovel.json
 1e919321916a4ae81914cb02e9ea5314783eda10 assets/ispmod/models/item/aluminum_sword.json
 aebf45d40a530de054dd02fbb526ff55a164a928 assets/ispmod/models/item/compound_bow.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/ispmod/models/item/iron_eater_spawn_egg.json
 968285e600b841646c78178d053891055a14c103 assets/ispmod/models/item/metal_detector.json
 7d6d33fc33805e23c244744dee53d87a8218a3fe assets/ispmod/models/item/raw_bauxite.json
 5d27084fbe9a0262ecbf00592a1adc041bca06cd assets/ispmod/models/item/steel.json

@@ -68,6 +68,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.STEEL_CHESTPLATE);
         trimmedArmorItem(ModItems.STEEL_LEGGINGS);
         trimmedArmorItem(ModItems.STEEL_BOOTS);
+
+        withExistingParent(ModItems.IRON_EATER_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
         private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
